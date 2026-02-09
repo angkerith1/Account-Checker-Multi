@@ -24,7 +24,7 @@ A multi-service account checker tool with colorful terminal output and batch che
 
 ## Download
 
-### [⬇️ Download Latest Version (t.exe)](../../releases/latest/download/t.exe)
+### [⬇️ Download Latest Version (t.exe)](../../releases/latest/download/V1.0/checker.exe)
 
 Or go to [Releases](../../releases) page to download.
 
