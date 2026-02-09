@@ -2,7 +2,6 @@
 
 A multi-service account checker tool with colorful terminal output and batch checking support.
 
-![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
 ![Platform](https://img.shields.io/badge/Platform-Windows-green)
 ![License](https://img.shields.io/badge/License-Free-brightgreen)
 
@@ -23,32 +22,17 @@ A multi-service account checker tool with colorful terminal output and batch che
   - Save with full subscription details
   - Colorful terminal output
 
-- **Auto Dependency Checker**: Automatically checks and installs required packages
+## Download
+
+### [⬇️ Download Latest Version (t.exe)](../../releases/latest/download/t.exe)
+
+Or go to [Releases](../../releases) page to download.
 
 ## Installation
 
-### Option 1: Run as Python Script
-
-1. Clone the repository:
-```bash
-git clone https://github.com/YOUR_USERNAME/account-checker.git
-cd account-checker
-```
-
-2. Install requirements:
-```bash
-pip install requests
-```
-
-3. Run the script:
-```bash
-python t.py
-```
-
-### Option 2: Run as Executable (.exe)
-
-1. Download `t.exe` from [Releases](../../releases)
+1. Download `t.exe` from the link above
 2. Double-click to run
+3. No Python or additional installation required!
 
 ## Usage
 
@@ -92,20 +76,6 @@ another@email.com:mypassword
 | `accounts/` | Valid accounts in `email:pass` format |
 | `results/` | Valid accounts with full details |
 | `checker_results/` | General check results |
-
-## Building from Source
-
-### Requirements
-- Python 3.10+
-- PyInstaller
-
-### Build Command
-```bash
-pip install pyinstaller requests
-pyinstaller --onefile --console --hidden-import=requests --hidden-import=urllib3 --hidden-import=charset_normalizer --hidden-import=certifi --hidden-import=idna t.py
-```
-
-The executable will be created in the `dist/` folder.
 
 ## Settings
 
